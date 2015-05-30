@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "People.h"
 
+void simple_va_func(int i,...);
+
 @interface ViewController ()
 
 @end
@@ -19,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    simple_va_func(100);
 }
 
 // @encode的用法
@@ -86,6 +89,28 @@
     
     // 通过set方法命名，依然可以获取到值
     NSLog(@"kvc is %@",[people valueForKey:@"name"]);
+}
+
+// 定义一个简单的C函数，参数个数是可变的
+void simple_va_func(int i,...) {
+    
+    // va_list所定义变量为字符指针:typedef char * va_list;
+    va_list arg_ptr;
+    
+    int j = 0,k = 0;
+    
+    // VA_START宏，获取可变参数列表的第一个参数的地址（ap是类型为va_list的指针，v是可变参数最左边的参数）
+    va_start(arg_ptr, i);
+    
+    // VA_ARG宏，获取可变参数的当前参数，返回指定类型并将指针指向下一参数（t参数描述了当前参数的类型）
+    j = va_arg(arg_ptr, int);
+    
+    k = va_arg(arg_ptr, int);
+    
+    // VA_END宏，清空va_list可变参数列表
+    va_end(arg_ptr);
+    
+    printf("%d %d %d\n",i ,j,k);
 }
 
 @end

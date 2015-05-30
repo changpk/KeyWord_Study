@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D96BFD94-D9D2-45A6-BC0E-46A5267A7F44</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KeyWord_Study</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC0A9AE92A59B34900FB56F39099EB6DDD56CBCA</key>
+		<string>https://github.com/changpk/KeyWord_Study.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KeyWord_Study.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC0A9AE92A59B34900FB56F39099EB6DDD56CBCA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/changpk/KeyWord_Study.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC0A9AE92A59B34900FB56F39099EB6DDD56CBCA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC0A9AE92A59B34900FB56F39099EB6DDD56CBCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KeyWord_Study</string>
+		</dict>
+	</array>
+</dict>
+</plist>
