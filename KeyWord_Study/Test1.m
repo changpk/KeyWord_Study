@@ -10,8 +10,17 @@
 
 @implementation Test1
 
+
 - (void)method1 {
     NSLog(@"master1");
+}
+- (void)testMethod1 {
+    NSLog(@"add menthod1 inin the newFeature1 branch  the master branch");
+}
+
+- (void)testMethod2 {
+    NSLog(@"add methods2 in the newFeature1 branch");
+
 }
 
 @end
