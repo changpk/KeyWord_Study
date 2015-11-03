@@ -9,8 +9,6 @@
 #import "Test1.h"
 
 @implementation Test1
-
-
 - (void)method1 {
     NSLog(@"master1");
 }
@@ -22,5 +20,4 @@
     NSLog(@"add methods2 in the newFeature1 branch");
 
 }
-
 @end
