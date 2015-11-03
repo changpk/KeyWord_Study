@@ -16,7 +16,8 @@
 		3A7A07EE1B19CE1400C75970 /* KeyWord_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A07ED1B19CE1400C75970 /* KeyWord_StudyTests.m */; };
 		3A7A07F91B19D60700C75970 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A07F81B19D60700C75970 /* BaseModel.m */; };
 		3A7A07FC1B19D6E700C75970 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A07FB1B19D6E700C75970 /* People.m */; };
-		64EB65461BE85ACE00C3AA17 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB65451BE85ACE00C3AA17 /* Test1.m */; };
+		64EB65491BE85F3600C3AA17 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB65481BE85F3600C3AA17 /* Test2.m */; };
+		64EB654C1BE85F4400C3AA17 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB654B1BE85F4400C3AA17 /* Test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,10 @@
 		3A7A07F81B19D60700C75970 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		3A7A07FA1B19D6E700C75970 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		3A7A07FB1B19D6E700C75970 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
-		64EB65441BE85ACE00C3AA17 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
-		64EB65451BE85ACE00C3AA17 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		64EB65471BE85F3600C3AA17 /* Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		64EB65481BE85F3600C3AA17 /* Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		64EB654A1BE85F4400C3AA17 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		64EB654B1BE85F4400C3AA17 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 				3A7A07D61B19CE1400C75970 /* AppDelegate.m */,
 				3A7A07D81B19CE1400C75970 /* ViewController.h */,
 				3A7A07D91B19CE1400C75970 /* ViewController.m */,
-				64EB65441BE85ACE00C3AA17 /* Test1.h */,
-				64EB65451BE85ACE00C3AA17 /* Test1.m */,
+				64EB654A1BE85F4400C3AA17 /* Test1.h */,
+				64EB654B1BE85F4400C3AA17 /* Test1.m */,
+				64EB65471BE85F3600C3AA17 /* Test2.h */,
+				64EB65481BE85F3600C3AA17 /* Test2.m */,
 				3A7A07F71B19D60700C75970 /* BaseModel.h */,
 				3A7A07F81B19D60700C75970 /* BaseModel.m */,
 				3A7A07FA1B19D6E700C75970 /* People.h */,
@@ -234,10 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EB654C1BE85F4400C3AA17 /* Test1.m in Sources */,
+				64EB65491BE85F3600C3AA17 /* Test2.m in Sources */,
 				3A7A07DA1B19CE1400C75970 /* ViewController.m in Sources */,
 				3A7A07D71B19CE1400C75970 /* AppDelegate.m in Sources */,
 				3A7A07FC1B19D6E700C75970 /* People.m in Sources */,
-				64EB65461BE85ACE00C3AA17 /* Test1.m in Sources */,
 				3A7A07F91B19D60700C75970 /* BaseModel.m in Sources */,
 				3A7A07D41B19CE1400C75970 /* main.m in Sources */,
 			);

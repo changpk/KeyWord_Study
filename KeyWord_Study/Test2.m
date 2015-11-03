@@ -1,13 +1,13 @@
 //
-//  Test1.h
+//  Test2.m
 //  KeyWord_Study
 //
 //  Created by sinagame on 15/11/3.
 //  Copyright © 2015年 com.pengkaichang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Test2.h"
 
-@interface Test1 : NSObject
+@implementation Test2
 
 @end

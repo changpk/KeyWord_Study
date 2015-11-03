@@ -1,5 +1,5 @@
 //
-//  Test1.h
+//  Test2.h
 //  KeyWord_Study
 //
 //  Created by sinagame on 15/11/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Test1 : NSObject
+@interface Test2 : NSObject
 
 @end
