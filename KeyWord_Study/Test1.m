@@ -10,4 +10,8 @@
 
 @implementation Test1
 
+- (void)method1 {
+    NSLog(@"master1");
+}
+
 @end
